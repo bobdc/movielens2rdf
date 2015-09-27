@@ -1,0 +1,57 @@
+# Schema for RDF version of datalens movie rating data with code lists. 
+
+@prefix glda: <http://learningsparql.com/grouplens/data/age/> .
+@prefix gldo: <http://learningsparql.com/grouplens/data/occupation/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+glda:i1 rdfs:label "Under 18" . 
+glda:i18 rdfs:label "18-24" . 
+glda:i25 rdfs:label "25-34" . 
+glda:i35 rdfs:label "35-44" . 
+glda:i45 rdfs:label "45-49" . 
+glda:i50 rdfs:label "50-55" . 
+glda:i56 rdfs:label "56+" . 
+
+gldo:i0 a schema:jobTitle ;
+  rdfs:label "other or not specified" . 
+gldo:i1 a schema:jobTitle ;
+  rdfs:label "academic/educator" . 
+gldo:i2 a schema:jobTitle ;
+  rdfs:label "artist" . 
+gldo:i3 a schema:jobTitle ;
+  rdfs:label "clerical/admin" . 
+gldo:i4 a schema:jobTitle ;
+  rdfs:label "college/grad student" . 
+gldo:i5 a schema:jobTitle ;
+  rdfs:label "customer service" . 
+gldo:i6 a schema:jobTitle ;
+  rdfs:label "doctor/health care" . 
+gldo:i7 a schema:jobTitle ;
+  rdfs:label "executive/managerial" . 
+gldo:i8 a schema:jobTitle ;
+  rdfs:label "farmer" . 
+gldo:i9 a schema:jobTitle ;
+  rdfs:label "homemaker" . 
+gldo:i10 a schema:jobTitle ;
+  rdfs:label "K-12 student" . 
+gldo:i11 a schema:jobTitle ;
+  rdfs:label "lawyer" . 
+gldo:i12 a schema:jobTitle ;
+  rdfs:label "programmer" . 
+gldo:i13 a schema:jobTitle ;
+  rdfs:label "retired" . 
+gldo:i14 a schema:jobTitle ;
+  rdfs:label "sales/marketing" . 
+gldo:i15 a schema:jobTitle ;
+  rdfs:label "scientist" . 
+gldo:i16 a schema:jobTitle ;
+  rdfs:label "self-employed" . 
+gldo:i17 a schema:jobTitle ;
+  rdfs:label "technician/engineer" . 
+gldo:i18 a schema:jobTitle ;
+  rdfs:label "tradesman/craftsman" . 
+gldo:i19 a schema:jobTitle ;
+  rdfs:label "unemployed" . 
+gldo:i20 a schema:jobTitle ;
+  rdfs:label "writer" . 
